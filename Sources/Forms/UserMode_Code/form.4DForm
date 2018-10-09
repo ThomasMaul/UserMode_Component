@@ -1,0 +1,82 @@
+﻿{
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"UserModeCode": {
+					"type": "input",
+					"top": 12,
+					"left": 10,
+					"width": 728,
+					"height": 464,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "UserModeCode",
+					"fontFamily": "Courier New",
+					"fontSize": 12,
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"button5": {
+					"type": "button",
+					"top": 483,
+					"left": 520,
+					"width": 111,
+					"height": 27,
+					"sizingX": "move",
+					"sizingY": "move",
+					"action": "cancel",
+					"text": ":xliff:UserMode ButtonCancel",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"button6": {
+					"type": "button",
+					"top": 483,
+					"left": 644,
+					"width": 111,
+					"height": 27,
+					"sizingX": "move",
+					"sizingY": "move",
+					"action": "cancel",
+					"text": ":xliff:UserMode ButtonExecute",
+					"focusable": false,
+					"method": "ObjectMethods/button6.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

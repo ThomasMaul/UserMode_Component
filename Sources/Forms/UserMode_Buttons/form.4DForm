@@ -1,0 +1,209 @@
+﻿{
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pages": [
+		null,
+		{
+			"objects": {
+				"PopUp Drop Down": {
+					"type": "dropdown",
+					"top": 23,
+					"left": 585,
+					"width": 109,
+					"height": 23,
+					"dataSource": "ar_UserMode_TableNames",
+					"focusable": false,
+					"styleSheet": "Default",
+					"method": "ObjectMethods/PopUp Drop Down.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button10": {
+					"type": "button",
+					"top": 0,
+					"left": 158,
+					"width": 56,
+					"height": 67,
+					"shortcutKey": "t",
+					"shortcutAccel": true,
+					"styleSheet": "Buttons",
+					"text": ":xliff:UserMode ButtonSort",
+					"icon": "/RESOURCES/Images/Buttons/Windows/OrderBy.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/Button10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button11": {
+					"type": "button",
+					"top": 0,
+					"left": 704,
+					"width": 51,
+					"height": 67,
+					"action": "cancel",
+					"styleSheet": "Buttons",
+					"text": ":xliff:UserMode ButtonDone",
+					"icon": "/RESOURCES/Images/Buttons/Windows/Done.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"Button12": {
+					"type": "button",
+					"top": 0,
+					"left": 293,
+					"width": 64,
+					"height": 67,
+					"styleSheet": "Buttons",
+					"text": ":xliff:UserMode ButtonAll",
+					"icon": "/RESOURCES/Images/Buttons/Windows/ShowAll.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/Button12.4dm",
+					"events": [
+						"onClick",
+						"onAlternateClick"
+					]
+				},
+				"UserMode_NewButton": {
+					"type": "button",
+					"top": 0,
+					"left": 13,
+					"width": 56,
+					"height": 67,
+					"shortcutKey": "n",
+					"shortcutAccel": true,
+					"styleSheet": "Buttons",
+					"text": ":xliff:UserMode ButtonNew",
+					"icon": "/RESOURCES/Images/Buttons/Windows/NewRecord.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/UserMode_NewButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"UserMode_DeleteButton": {
+					"type": "button",
+					"top": 0,
+					"left": 76,
+					"width": 56,
+					"height": 67,
+					"styleSheet": "Buttons",
+					"text": ":xliff:UserMode ButtonDelete",
+					"icon": "/RESOURCES/Images/Buttons/Windows/DeleteRecord.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/UserMode_DeleteButton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button15": {
+					"type": "button",
+					"top": 0,
+					"left": 365,
+					"width": 56,
+					"height": 67,
+					"styleSheet": "Buttons",
+					"text": ":xliff:UserMode ButtonSelection",
+					"icon": "/RESOURCES/Images/Buttons/Windows/ShowSubset.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/Button15.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button16": {
+					"type": "button",
+					"top": 0,
+					"left": 224,
+					"width": 60,
+					"height": 67,
+					"shortcutKey": "f",
+					"shortcutAccel": true,
+					"styleSheet": "Buttons",
+					"text": ":xliff:UserMode ButtonQuery",
+					"icon": "/RESOURCES/Images/Buttons/Windows/Query.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/Button16.4dm",
+					"events": [
+						"onClick",
+						"onAlternateClick"
+					]
+				},
+				"UserMode_ReportButton": {
+					"type": "button",
+					"top": 1,
+					"left": 441,
+					"width": 61,
+					"height": 67,
+					"shortcutKey": "p",
+					"shortcutAccel": true,
+					"styleSheet": "Buttons",
+					"text": ":xliff:UserMode ButtonPrint",
+					"icon": "/RESOURCES/Images/Buttons/Windows/Print.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"style": "toolbar",
+					"method": "ObjectMethods/UserMode_ReportButton.4dm",
+					"events": [
+						"onClick",
+						"onAlternateClick"
+					]
+				},
+				"UserMode_ExecuteButton": {
+					"type": "button",
+					"top": -1,
+					"left": 509,
+					"width": 56,
+					"height": 67,
+					"styleSheet": "Buttons",
+					"icon": "/RESOURCES/Images/Buttons/Windows/Execute.png",
+					"iconFrames": 4,
+					"popupPlacement": "separated",
+					"style": "toolbar",
+					"method": "ObjectMethods/UserMode_ExecuteButton.4dm",
+					"events": [
+						"onClick",
+						"onAlternateClick"
+					]
+				}
+			}
+		}
+	]
+}

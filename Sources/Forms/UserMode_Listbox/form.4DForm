@@ -1,0 +1,176 @@
+﻿{
+	"memorizeGeometry": true,
+	"inheritedForm": "UserMode_Buttons",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Listbox": {
+					"type": "listbox",
+					"top": 69,
+					"left": 2,
+					"width": 424,
+					"height": 448,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"listboxType": "currentSelection",
+					"movableRows": false,
+					"dragging": "custom",
+					"rowHeight": "20px",
+					"highlightSet": "UserSet",
+					"table": 3,
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"alternateFill": "#DDDDDD",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/Listbox.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onBeginDragOver"
+					],
+					"columns": [
+						{
+							"name": "Spalte1",
+							"width": 759,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#DDDDDD",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onDoubleClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf1",
+								"text": "Header1",
+								"stroke": "#000000",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						}
+					]
+				},
+				"Splitter": {
+					"type": "splitter",
+					"top": 67,
+					"left": 432,
+					"width": 10,
+					"height": 450,
+					"sizingY": "grow",
+					"events": [
+						"onClick"
+					]
+				},
+				"ListboxDetail": {
+					"type": "listbox",
+					"top": 69,
+					"left": 446,
+					"width": 321,
+					"height": 416,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"sortable": false,
+					"movableRows": false,
+					"singleClickEdit": true,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "none",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"alternateFill": "#B1C4DD",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"events": [
+						"onDoubleClick"
+					],
+					"columns": [
+						{
+							"name": "Fieldname",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#B1C4DD",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onDoubleClick",
+								"onDataChange"
+							]
+						},
+						{
+							"name": "Fieldcontent",
+							"width": 184,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#B1C4DD",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange"
+							]
+						}
+					]
+				},
+				"Schaltfläche": {
+					"type": "button",
+					"top": 489,
+					"left": 673,
+					"width": 73,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": ":xliff:UserMode ButtonSave",
+					"focusable": false,
+					"method": "ObjectMethods/Schaltfläche.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

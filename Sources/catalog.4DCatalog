@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="UserMode_Component" uuid="8A59ABD25BA8E14EABA77A5EE5E1B2CB" collation_locale="de">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra data_file_path=":UserMode_Component.4DD" ppc_code_stamp="34" package_name="UserMode_Component" structure_file_name="UserMode_Component" __stringCompHash="icu:56.1.0" __keywordBuildingHash="icu:56.1.0">
+		<temp_folder folder_selector="data"/>
+	</base_extra>
+</base>

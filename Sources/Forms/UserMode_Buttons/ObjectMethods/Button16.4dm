@@ -1,0 +1,1 @@
+QUERY:C277(Table:C252(iUserMode_CurrentTable)->)

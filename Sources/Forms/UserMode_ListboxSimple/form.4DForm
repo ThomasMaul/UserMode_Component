@@ -1,0 +1,86 @@
+﻿{
+	"inheritedForm": "UserMode_Buttons",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Listbox": {
+					"type": "listbox",
+					"top": 69,
+					"left": 3,
+					"width": 774,
+					"height": 177,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"listboxType": "currentSelection",
+					"movableRows": false,
+					"dragging": "custom",
+					"rowHeight": "20px",
+					"highlightSet": "UserSet",
+					"table": 3,
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"alternateFill": "#DDDDDD",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/Listbox.4dm",
+					"events": [
+						"onDoubleClick",
+						"onBeginDragOver"
+					],
+					"columns": [
+						{
+							"name": "Spalte1",
+							"width": 759,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"alternateFill": "#DDDDDD",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onDoubleClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf1",
+								"text": "Header1",
+								"stroke": "#000000",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}
