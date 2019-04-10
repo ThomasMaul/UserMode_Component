@@ -1,4 +1,5 @@
 ﻿{
+	"destination": "detailScreen",
 	"inheritedForm": "UserMode_Buttons",
 	"rightMargin": 0,
 	"bottomMargin": 0,
@@ -25,6 +26,11 @@
 		"onPageChange"
 	],
 	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4 (großer Druckbereich)",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
 	"pages": [
 		null,
 		{
@@ -37,6 +43,7 @@
 					"height": 177,
 					"sizingX": "grow",
 					"sizingY": "grow",
+					"resizingMode": "legacy",
 					"listboxType": "currentSelection",
 					"movableRows": false,
 					"dragging": "custom",
@@ -76,6 +83,14 @@
 								"stroke": "#000000",
 								"fontFamily": "Lucida Grande",
 								"fontSize": 13
+							},
+							"footer": {
+								"name": "Fußteil1",
+								"timeFormat": "hh_mm_ss",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 12
 							}
 						}
 					]

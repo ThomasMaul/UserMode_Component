@@ -1,4 +1,5 @@
 ﻿{
+	"destination": "detailScreen",
 	"rightMargin": 20,
 	"bottomMargin": 20,
 	"markerHeader": 15,
@@ -23,6 +24,11 @@
 		"onBoundVariableChange",
 		"onPageChange"
 	],
+	"pageFormat": {
+		"paperName": "A4 (großer Druckbereich)",
+		"paperWidth": "594pt",
+		"paperHeight": "841pt"
+	},
 	"pages": [
 		null,
 		{

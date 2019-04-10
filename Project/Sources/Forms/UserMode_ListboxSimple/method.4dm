@@ -1,5 +1,5 @@
 C_TEXT:C284($name;$text1;$text2;$text3;$who;$t)
-C_LONGINT:C283($pos;$mylong))
+C_LONGINT:C283($pos;$mylong)
 
 Case of 
 	: (Form event:C388=On Load:K2:1)

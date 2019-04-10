@@ -1,0 +1,170 @@
+﻿{
+	"Sources/Methods/UserMode_Show.4dm": {
+		"left": 868,
+		"top": 130,
+		"width": 1043,
+		"height": 1031
+	},
+	"Sources/Methods/UserMode_Pasteboard.4dm": {
+		"left": 453,
+		"top": 109,
+		"width": 1043,
+		"height": 1031
+	},
+	"Sources/Methods/UserMode_Listbox_Init.4dm": {
+		"left": 41,
+		"top": 158,
+		"width": 1352,
+		"height": 1049
+	},
+	"Sources/Methods/UserMode_IsFormExisting.4dm": {
+		"left": 25,
+		"top": 109,
+		"width": 1051,
+		"height": 887
+	},
+	"Sources/Methods/UserMode_InitTableNames.4dm": {
+		"left": 154,
+		"top": 325,
+		"width": 1051,
+		"height": 887
+	},
+	"Sources/Methods/UserMode_Init.4dm": {
+		"left": 495,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Methods/UserMode_Forms.4dm": {
+		"left": 25,
+		"top": 56,
+		"width": 1051,
+		"height": 887
+	},
+	"Sources/Methods/UserMode_ConvertFieldToText.4dm": {
+		"left": 495,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Methods/UserMode_Access.4dm": {
+		"left": 115,
+		"top": 236,
+		"width": 1051,
+		"height": 887
+	},
+	"Sources/Forms/UserMode_ListboxSimple/method.4dm": {
+		"left": 495,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Forms/UserMode_ListboxSimple/ObjectMethods/Listbox.4dm": {
+		"left": 263,
+		"top": 211,
+		"width": 929,
+		"height": 1248
+	},
+	"Sources/Forms/UserMode_ListboxPro/method.4dm": {
+		"left": 495,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Forms/UserMode_ListboxPro/ObjectMethods/Listbox.4dm": {
+		"left": 495,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Forms/UserMode_ListboxPro/ObjectMethods/ListboxDetail.4dm": {
+		"left": 571,
+		"top": 184,
+		"width": 1098,
+		"height": 1050
+	},
+	"Sources/Forms/UserMode_ListboxPro/ObjectMethods/Schaltfläche.4dm": {
+		"left": 495,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Forms/UserMode_ListboxPro/ObjectMethods/button1.4dm": {
+		"left": 595,
+		"top": 242,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Forms/UserMode_ListboxPro/ObjectMethods/button4.4dm": {
+		"left": 495,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Forms/UserMode_Listbox/method.4dm": {
+		"left": 495,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Forms/UserMode_Listbox/ObjectMethods/Listbox.4dm": {
+		"left": 495,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Forms/UserMode_Listbox/ObjectMethods/Schaltfläche.4dm": {
+		"left": 495,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Forms/UserMode_Code/ObjectMethods/button6.4dm": {
+		"left": 495,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Forms/UserMode_Buttons/ObjectMethods/PopUp Drop Down.4dm": {
+		"left": 106,
+		"top": 146,
+		"width": 1176,
+		"height": 879
+	},
+	"Sources/Forms/UserMode_Buttons/ObjectMethods/Button10.4dm": {
+		"left": 420,
+		"top": 86,
+		"width": 1090,
+		"height": 743
+	},
+	"Sources/Forms/UserMode_Buttons/ObjectMethods/UserMode_DeleteButton.4dm": {
+		"left": 423,
+		"top": 118,
+		"width": 1161,
+		"height": 905
+	},
+	"Sources/Forms/UserMode_Buttons/ObjectMethods/Button15.4dm": {
+		"left": 148,
+		"top": 108,
+		"width": 1176,
+		"height": 879
+	},
+	"Sources/Forms/UserMode_Buttons/ObjectMethods/Button16.4dm": {
+		"left": 619,
+		"top": 227,
+		"width": 899,
+		"height": 681
+	},
+	"Sources/Forms/UserMode_Buttons/ObjectMethods/UserMode_ReportButton.4dm": {
+		"left": 141,
+		"top": 109,
+		"width": 1098,
+		"height": 903
+	},
+	"Sources/Forms/UserMode_Buttons/ObjectMethods/UserMode_ExecuteButton.4dm": {
+		"left": 1067,
+		"top": 200,
+		"width": 1161,
+		"height": 905
+	}
+}

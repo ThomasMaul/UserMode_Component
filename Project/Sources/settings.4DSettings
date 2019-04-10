@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<preferences stamp="8">
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="9">
 	<com.4d>
 		<interface>
 			<user can_change_password="true" default_user="0" print_progress="false"/>
@@ -24,10 +23,10 @@
 				<log tokens="">
 					<backup daily="" hourly="" mode="0" monthly="" size="0" weekly=""/>
                   				</log>
-				<misc automatic_variables_management="true"/>
+				<misc/>
                               			</standalone_server>
 			<remote>
-				<misc automatic_variables_management="true" remove_slash="true"/>
+				<misc/>
 				<options>
 					<web_processes timeout_for_inactives="5"/>
 					<cache cache_max_size="524288"/>
@@ -47,7 +46,7 @@
 			</network>
 		</server>
 		<database>
-			<misc store_unicode_tokens="false" accept_dot_syntax="false" allow_json_dates="false"/>
+			<misc/>
 		</database>
                   	</com.4d>
   </preferences>
