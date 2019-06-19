@@ -1,12 +1,12 @@
 ﻿{
 	"editors": [
 		{
-			"type": "explorer"
-		},
-		{
 			"type": "form",
 			"id": 26,
 			"formName": "UserMode_Listbox"
+		},
+		{
+			"type": "explorer"
 		},
 		{
 			"type": "method",

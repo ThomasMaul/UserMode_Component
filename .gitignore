@@ -1,6 +1,7 @@
 *.4db
 *.4dd
 *.4DIndy
+*.4DIndx
 *.Match
 Logs
 Project/DerivedData
