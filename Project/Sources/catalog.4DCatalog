@@ -1,7 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
-<base name="UserMode_Component" uuid="8A59ABD25BA8E14EABA77A5EE5E1B2CB" collation_locale="de">
-	<schema name="DEFAULT_SCHEMA"/>
+<base name="" uuid="8A59ABD25BA8E14EABA77A5EE5E1B2CB" collation_locale="de">
+	<table name="testingOnly" uuid="E7161932842C4DDF8205D010EC58DEC8" id="1" prevent_journaling="true">
+		<field name="ID" uuid="6030BDFE5FAF4B66834D052B9C52ECD9" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="name" uuid="E6602DBF4A914864A77E62CC19DBF577" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="city" uuid="CCB83C9856EF4EF8B12ED1A0B37F9BB8" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="address" uuid="CBF38E1B7C6D4E09AE0115A6759D9604" type="10" limiting_length="255" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="6030BDFE5FAF4B66834D052B9C52ECD9"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="8">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="146.15234375" top="61.58203125" width="142.48828125" height="214.87890625"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="D1FD10D3DE5A472197D520901DF48C4B" type="7">
+		<field_ref uuid="6030BDFE5FAF4B66834D052B9C52ECD9" name="ID">
+			<table_ref uuid="E7161932842C4DDF8205D010EC58DEC8" name="testingOnly"/>
+		</field_ref>
+	</index>
 	<base_extra data_file_path=":UserMode_Component.4DD" ppc_code_stamp="34" package_name="UserMode_Component" structure_file_name="UserMode_Component" __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0">
 		<temp_folder folder_selector="data"/>
 	</base_extra>

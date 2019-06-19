@@ -1,13 +1,13 @@
 ﻿{
+	"Default Project Methods": {},
+	"Default Forms": {},
+	"Default Tables": {},
 	"Default Folder": {
 		"groups": [
-			"Default Tables",
+			"Default Project Methods",
 			"Default Forms",
-			"Default Project Methods"
+			"Default Tables"
 		]
 	},
-	"Default Tables": {},
-	"Default Forms": {},
-	"Default Project Methods": {},
 	"trash": {}
 }

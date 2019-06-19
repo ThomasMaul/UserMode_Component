@@ -61,6 +61,9 @@
 					"events": [
 						"onClick",
 						"onDoubleClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onUnload",
 						"onBeginDragOver"
 					],
 					"columns": [
@@ -319,5 +322,9 @@
 				}
 			}
 		}
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
 }

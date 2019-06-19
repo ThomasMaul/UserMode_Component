@@ -29,3 +29,5 @@ C_BOOLEAN:C305(UserMode_ConvertFieldToText ;$2)
 
 C_POINTER:C301(UserMode_Access ;$2)
 C_TEXT:C284(UserMode_Access ;$1)
+
+C_LONGINT:C283(UserMode_ListboxEvent ;$1)

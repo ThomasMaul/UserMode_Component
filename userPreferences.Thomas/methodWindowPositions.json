@@ -74,8 +74,8 @@
 	"Sources/Forms/UserMode_ListboxPro/ObjectMethods/Listbox.4dm": {
 		"left": 495,
 		"top": 109,
-		"width": 1098,
-		"height": 903
+		"width": 1285,
+		"height": 1500
 	},
 	"Sources/Forms/UserMode_ListboxPro/ObjectMethods/ListboxDetail.4dm": {
 		"left": 571,
@@ -108,10 +108,10 @@
 		"height": 903
 	},
 	"Sources/Forms/UserMode_Listbox/ObjectMethods/Listbox.4dm": {
-		"left": 495,
-		"top": 109,
-		"width": 1098,
-		"height": 903
+		"left": 1683,
+		"top": 633,
+		"width": 1298,
+		"height": 1357
 	},
 	"Sources/Forms/UserMode_Listbox/ObjectMethods/Schaltfläche.4dm": {
 		"left": 495,
@@ -166,5 +166,23 @@
 		"top": 200,
 		"width": 1161,
 		"height": 905
+	},
+	"Sources/Methods/UserMode_EventHandler.4dm": {
+		"left": 1420,
+		"top": 161,
+		"width": 1155,
+		"height": 1188
+	},
+	"Sources/Methods/UserMode_ListboxEvent.4dm": {
+		"left": 1945,
+		"top": 813,
+		"width": 1155,
+		"height": 1188
+	},
+	"Sources/Methods/Compiler_UserMode.4dm": {
+		"left": 481,
+		"top": 280,
+		"width": 1155,
+		"height": 1188
 	}
 }

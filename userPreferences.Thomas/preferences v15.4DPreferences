@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="6">
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="18">
 	<com.4d>
 		<database>
 			<data_storage data_path=":UserMode_Component.4DD"/>
 		</database>
-		<general last_opening_mode="0"/>
+		<general last_opening_mode="1"/>
 	</com.4d>
 	<internal_prefs_4d>
 		<windows>
