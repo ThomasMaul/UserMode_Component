@@ -18,13 +18,13 @@
 		"stamp": "2019-04-09T14:02:11.988Z"
 	},
 	"Sources/Methods/UserMode_Listbox_Init.4dm": {
-		"startSelection": 17,
-		"endSelection": 17,
-		"firstSelectedLine": 30,
-		"lastSelectedLine": 30,
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 48,
+		"lastSelectedLine": 48,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-09T14:02:11.990Z"
+		"stamp": "2019-06-26T14:40:45.702Z"
 	},
 	"Sources/Methods/UserMode_InitTableNames.4dm": {
 		"startSelection": 13,
@@ -63,13 +63,13 @@
 		"stamp": "2019-04-09T14:02:12.011Z"
 	},
 	"Sources/Forms/UserMode_ListboxSimple/ObjectMethods/Listbox.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 14,
-		"lastSelectedLine": 14,
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-06-19T10:13:53.009Z"
+		"stamp": "2020-03-12T09:30:34.157Z"
 	},
 	"Sources/Forms/UserMode_ListboxPro/method.4dm": {
 		"startSelection": 22,
@@ -81,19 +81,19 @@
 		"stamp": "2019-04-09T14:02:12.358Z"
 	},
 	"Sources/Forms/UserMode_ListboxPro/ObjectMethods/Listbox.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 105,
-		"lastSelectedLine": 105,
+		"startSelection": 2,
+		"endSelection": 2,
+		"firstSelectedLine": 104,
+		"lastSelectedLine": 104,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-06-19T10:13:32.852Z"
+		"stamp": "2020-03-12T09:29:55.558Z"
 	},
 	"Sources/Forms/UserMode_ListboxPro/ObjectMethods/ListboxDetail.4dm": {
-		"startSelection": 53,
-		"endSelection": 53,
-		"firstSelectedLine": 8,
-		"lastSelectedLine": 8,
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 18,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2019-04-09T14:02:12.361Z"
@@ -109,12 +109,12 @@
 	},
 	"Sources/Forms/UserMode_ListboxPro/ObjectMethods/button1.4dm": {
 		"startSelection": 9,
-		"endSelection": 0,
+		"endSelection": 9,
 		"firstSelectedLine": 22,
-		"lastSelectedLine": 4,
+		"lastSelectedLine": 22,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-09T14:02:12.363Z"
+		"stamp": "2019-11-27T15:48:34.782Z"
 	},
 	"Sources/Forms/UserMode_ListboxPro/ObjectMethods/button4.4dm": {
 		"startSelection": 18,
@@ -126,22 +126,22 @@
 		"stamp": "2019-04-09T14:02:12.364Z"
 	},
 	"Sources/Forms/UserMode_Listbox/method.4dm": {
-		"startSelection": 23,
-		"endSelection": 23,
-		"firstSelectedLine": 1,
-		"lastSelectedLine": 1,
+		"startSelection": 0,
+		"endSelection": 21,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2019-04-09T14:28:30.445Z"
 	},
 	"Sources/Forms/UserMode_Listbox/ObjectMethods/Listbox.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 36,
-		"lastSelectedLine": 27,
+		"startSelection": 2,
+		"endSelection": 2,
+		"firstSelectedLine": 35,
+		"lastSelectedLine": 35,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-06-19T09:56:51.906Z"
+		"stamp": "2020-03-12T09:30:12.190Z"
 	},
 	"Sources/Forms/UserMode_Listbox/ObjectMethods/Schaltfläche.4dm": {
 		"startSelection": 22,

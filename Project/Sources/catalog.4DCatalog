@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
 <base name="" uuid="8A59ABD25BA8E14EABA77A5EE5E1B2CB" collation_locale="de">
+	<schema name="DEFAULT_SCHEMA"/>
 	<table name="testingOnly" uuid="E7161932842C4DDF8205D010EC58DEC8" id="1" prevent_journaling="true">
 		<field name="ID" uuid="6030BDFE5FAF4B66834D052B9C52ECD9" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
 		<field name="name" uuid="E6602DBF4A914864A77E62CC19DBF577" type="10" limiting_length="255" never_null="true" id="2"/>
 		<field name="city" uuid="CCB83C9856EF4EF8B12ED1A0B37F9BB8" type="10" limiting_length="255" never_null="true" id="3"/>
 		<field name="address" uuid="CBF38E1B7C6D4E09AE0115A6759D9604" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="number" uuid="B5500E6BACDD4E34AC513FBD9DABB35B" type="6" never_null="true" id="5"/>
 		<primary_key field_name="ID" field_uuid="6030BDFE5FAF4B66834D052B9C52ECD9"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="8">

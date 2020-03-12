@@ -2,11 +2,11 @@ C_LONGINT:C283($i)
 C_POINTER:C301($ptr;$ptr2)
 
 Case of 
-	: (Form event:C388=On Begin Drag Over:K2:44)
+	: (Form event code:C388=On Begin Drag Over:K2:44)
 		
 		UserMode_Pasteboard 
 		
-	: (Form event:C388=On Clicked:K2:4)
+	: (Form event code:C388=On Clicked:K2:4)
 		READ ONLY:C145(Table:C252(iUserMode_CurrentTable)->)
 		LOAD RECORD:C52(Table:C252(iUserMode_CurrentTable)->)
 		READ WRITE:C146(Table:C252(iUserMode_CurrentTable)->)
@@ -25,14 +25,14 @@ Case of
 		COPY ARRAY:C226($fieldcontent;$ptr2->)
 		  //%W+518.1
 		
-	: (Form event:C388=On Getting Focus:K2:7)
-		Form:C1466.event:=Method called on event:C705
-		ON EVENT CALL:C190("UserMode_EventHandler")
+	: (Form event code:C388=On Getting Focus:K2:7)
+		  //Form.event:=Method called on event
+		  //ON EVENT CALL("UserMode_EventHandler")
 		
-	: (Form event:C388=On Losing Focus:K2:8)
-		ON EVENT CALL:C190(Form:C1466.event)
+	: (Form event code:C388=On Losing Focus:K2:8)
+		  //ON EVENT CALL(Form.event)
 		
-	: (Form event:C388=On Unload:K2:2)
-		ON EVENT CALL:C190(Form:C1466.event)
+	: (Form event code:C388=On Unload:K2:2)
+		  //ON EVENT CALL(Form.event)
 		
 End case 

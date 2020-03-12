@@ -1,22 +1,7 @@
 ﻿{
 	"editors": [
 		{
-			"type": "form",
-			"id": 26,
-			"formName": "UserMode_Listbox"
-		},
-		{
-			"type": "explorer"
-		},
-		{
-			"type": "method",
-			"id": 2147483635,
-			"codeDescriptor": {
-				"type": 2,
-				"formName": "UserMode_Listbox",
-				"objectName": "Listbox",
-				"methodPath": "/SOURCES/Forms/UserMode_Listbox/ObjectMethods/Listbox.4dm"
-			}
+			"type": "structure"
 		},
 		{
 			"type": "method",
@@ -25,9 +10,6 @@
 				"type": 1,
 				"methodName": "UserMode_ListboxEvent"
 			}
-		},
-		{
-			"type": "structure"
 		}
 	]
 }
