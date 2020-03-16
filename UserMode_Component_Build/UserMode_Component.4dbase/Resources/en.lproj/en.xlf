@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xliff>
-
   <file datatype="x-STR#" original="Undefined" source-language="en" target-language="en">
     <body>
       <group id="16000" resname="UserMode">
@@ -11,7 +10,7 @@
         <trans-unit id="2" resname="UserMode Locked">
           <source>The record from table '$1' is currently being edited by '$2'. Display in read only mode?</source>
           <target>The record from table '$1' is currently being edited by '$2'. Display in read only mode?</target>
-<german>Der Datensatz der Datei '"+$name+"' wird zur Zeit von "+$who+" bearbeitet! "+"Im Nur Lesen Modus darstellen?</german>
+          <german>Der Datensatz der Datei '"+$name+"' wird zur Zeit von "+$who+" bearbeitet! "+"Im Nur Lesen Modus darstellen?</german>
         </trans-unit>
         <trans-unit id="3" resname="UserMode ReportPopup">
           <source>Report;Import;Export</source>
@@ -20,7 +19,7 @@
         <trans-unit id="4" resname="UserMode DeleteAlert">
           <source>Do you really want to delete $1 records of table $2?</source>
           <target>Do you really want to delete $1 records of table $2?</target>
-<german>Wollen Sie wirklich "+String($a)+" "+Table name(iUserMode_CurrentTable)+" lschen?</german>
+          <german>Wollen Sie wirklich "+String($a)+" "+Table name(iUserMode_CurrentTable)+" lschen?</german>
         </trans-unit>
         <trans-unit id="5" resname="UserMode ButtonNew">
           <source>New</source>
@@ -58,41 +57,39 @@
           <source>Some records was locked and could not be updated.</source>
           <target>Some records was locked and could not be updated.</target>
         </trans-unit>
-       <trans-unit id="14" resname="UserMode ButtonSave">
+        <trans-unit id="14" resname="UserMode ButtonSave">
           <source>Save</source>
           <target>Save</target>
-        </trans-unit>		
-       </group>
-	   <trans-unit id="15" resname="UserMode OneLocked">
+        </trans-unit>
+        <trans-unit id="15" resname="UserMode OneLocked">
           <source>This record is locked and can not be updated.</source>
           <target>This record is locked and can not be updated.</target>
         </trans-unit>
-		<trans-unit id="16" resname="UserMode ButtonCancel">
+        <trans-unit id="16" resname="UserMode ButtonCancel">
           <source>Cancel</source>
           <target>Cancel</target>
-        </trans-unit>	
-	   <trans-unit id="17" resname="UserMode EditPicture">
+        </trans-unit>
+        <trans-unit id="17" resname="UserMode EditPicture">
           <source>Show picture</source>
           <target>Show picture</target>
         </trans-unit>
-	   <trans-unit id="18" resname="UserMode EditObject">
+        <trans-unit id="18" resname="UserMode EditObject">
           <source>Show object</source>
           <target>Show object</target>
         </trans-unit>
-	   <trans-unit id="19" resname="UserMode EditBlob">
+        <trans-unit id="19" resname="UserMode EditBlob">
           <source>Show Blob as Base64</source>
           <target>Show Blob as Base64</target>
-        </trans-unit>		
+        </trans-unit>
         <trans-unit id="20" resname="UserMode ButtonExecute">
           <source>Execute</source>
           <target>Execute</target>
-        </trans-unit>	
+        </trans-unit>
         <trans-unit id="21" resname="UserMode ExecutePopup">
           <source>Apply To Selection;Execute Code</source>
           <target>Apply To Selection;Execute Code</target>
-        </trans-unit>		
-       </group>
+        </trans-unit>
+      </group>
     </body>
   </file>
-
 </xliff>
