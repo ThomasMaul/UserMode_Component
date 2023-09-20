@@ -8,3 +8,5 @@ Project/DerivedData
 Components
 *.journal
 
+lib4d-arm64.dylib
+userPreferences.Thomas/

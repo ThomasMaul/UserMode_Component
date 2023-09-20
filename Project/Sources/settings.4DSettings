@@ -1,42 +1,33 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="9">
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="10">
 	<com.4d>
 		<interface>
 			<user can_change_password="true" default_user="0" print_progress="false"/>
-			<developper design_acces="0"/>
-                		</interface>
+			<developper design_acces="0"/>                </interface>
 		<compiler>
 			<typage default_for_button="1" default_for_numeric="1"/>
-			<options compilation_path="3" fat_binary="true"/>
-                		</compiler>
+			<options compilation_path="3" fat_binary="true" target="all"/>                </compiler>
 		<sql>
-			<access data_read_only="0" data_read_write="0" full="1"/>
-          		</sql>
+			<access data_read_only="0" data_read_write="0" full="1"/>          </sql>
 		<web>
 			<standalone_server>
 				<options>
 					<web_processes timeout_for_inactives="5"/>
 					<cache cache_max_size="524288"/>
 					<web_passwords generic_web_user="1"/>
-					<filters allow_4dsync_urls="true"/>
-                                      				</options>
+					<filters allow_4dsync_urls="true"/>                                      </options>
 				<configuration automatic_session_management="false" ip_address="0" listening_address="::"/>
 				<log tokens="">
-					<backup daily="" hourly="" mode="0" monthly="" size="0" weekly=""/>
-                  				</log>
-				<misc/>
-                              			</standalone_server>
+					<backup daily="" hourly="" mode="0" monthly="" size="0" weekly=""/>                  </log>
+				<misc/>                              </standalone_server>
 			<remote>
 				<misc/>
 				<options>
 					<web_processes timeout_for_inactives="5"/>
 					<cache cache_max_size="524288"/>
 					<web_passwords generic_web_user="1"/>
-					<filters allow_4dsync_urls="true"/>
-                                      				</options>
+					<filters allow_4dsync_urls="true"/>                                      </options>
 				<configuration allow_ssl="false" automatic_session_management="false" ip_address="0"/>
-				<webservices allow_requests="false"/>
-                                      			</remote>
-                		</web>
+				<webservices allow_requests="false"/>                                      </remote>                </web>
 		<general>
 			<mover always_display_dialog="2"/>
 		</general>
@@ -47,6 +38,4 @@
 		</server>
 		<database>
 			<misc/>
-		</database>
-                  	</com.4d>
-  </preferences>
+		</database>                  </com.4d>  </preferences>
