@@ -39,6 +39,9 @@
       <ItemsCount>0</ItemsCount>
     </ArrayExcludedComponentName>
     <Licenses>
+      <ArrayLicenseMac>
+        <ItemsCount>0</ItemsCount>
+      </ArrayLicenseMac>
     </Licenses>
     <RuntimeVL>
       <LastDataPathLookup>ByAppName</LastDataPathLookup>
@@ -46,12 +49,14 @@
     <BuildMacDestFolder>:UserMode_Component_Build:</BuildMacDestFolder>
     <SignApplication>
       <MacSignature>True</MacSignature>
-      <MacCertificate>Developer ID</MacCertificate>
-      <AdHocSign>True</AdHocSign></SignApplication>
+      <MacCertificate>Developer ID Application: 4D Deutschland GmbH (4789QA2D2W)</MacCertificate>
+      <AdHocSign>False</AdHocSign>
+    </SignApplication> 
     <ArrayExcludedModuleName>
       <ItemsCount>0</ItemsCount>
     </ArrayExcludedModuleName>
   </BuildApp>
+
 
 
 </Preferences4D>

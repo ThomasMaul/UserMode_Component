@@ -1,8 +1,14 @@
 ﻿{
+	"Sources/Forms/UserMode_ListboxSimple/form.4DForm": {
+		"left": 947,
+		"top": 397,
+		"width": 1082,
+		"height": 425
+	},
 	"Sources/Forms/UserMode_ListboxPro/form.4DForm": {
-		"left": 263,
-		"top": 284,
-		"width": 1434,
-		"height": 923
+		"left": 947,
+		"top": 397,
+		"width": 1082,
+		"height": 425
 	}
 }
